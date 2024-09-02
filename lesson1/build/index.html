@@ -9,35 +9,35 @@
 </head>
 
 <body>
-    <div class="p-10">
+    <div class="p-10 bg-green-700">
         <!-----spacing --->
-        <h2 class="mb-4">Spacing section </h2>
-        <p class="mb-4">Tailwind help uq space things out with margin and padding </p>
-        <button class="mr-3 py-2 px-4">Learn More </button>
-        <button class="py-2 px-4">Sign up </button>
+        <h2 class="mb-4 text-5xl font-bold text-green-100">Spacing section </h2>
+        <p class="mb-4 text-green-200 text-xl">Tailwind help uq space things out with margin and padding </p>
+        <button class="mr-3 py-2 px-7 bg-purple-700 hover:bg-purple-500 rounded text-purple-100">Learn More </button>
+        <button class="py-2 px-8 bg-yellow-400 shadow-lg hover:bg-yellow-300 text-yellow-900 rounded">Sign up </button>
 
     </div>
     <!------box properties ----->
     <!---background, borders, rounding , shadows ---->
     <div class="p-20 bg-blue-400 border-2 border-black">
-        <h2 class="p-10 m-5 border-red-50 border-2">Box properties</h2>
-        <div class="p-10 bg-purple-300 rounded-full border-rose-800 border-4 shadow-2xl">I am a box </div>
+        <h2 class="p-10 mb-5 text-5xl text-blue-800">Box properties</h2>
+        <div class="p-10 bg-purple-300 rounded-full border-rose-800 border-4 text-purple-700 text-center font-bold uppercase tracking-widest shadow-2xl">I am a box </div>
     </div>
 
 
     <!-----sizing & numbering ------>
     <div class="p-20 bg-orange-300">
-        <button class="p-4 bg-green-400 rounded w-8">click me </button>
-        <button class="p-4 bg-green-400 rounded w-15">click me </button>
-        <button class="p-4 bg-green-400 rounded w-30">click me </button>
-        <button class="p-4 bg-green-400 rounded w-48 h-48">click me </button>
-        <button class="p-4 bg-green-400 rounded">click me </button>
+        <button class="p-4 bg-orange-400 text-orange-200 rounded w-8">click me </button>
+        <button class="p-4 bg-orange-400 text-orange-200 rounded w-15">click me </button>
+        <button class="p-4 bg-orange-400 text-orange-200 rounded w-30">click me </button>
+        <button class="p-4 bg-orange-400 text-orange-200 rounded w-48 h-48">click me </button>
+        <button class="p-4 bg-orange-400 text-orange-200 rounded">click me </button>
 
     </div>
    <!------ typography--------> 
    <div class="p-20 text-gray-800 leading-relaxed">
-    <h2 class="mb-2 text-4xl text-gray-700 font-bold -tracking-wide">Learning Tailwind is fun !</h2>
-    <h3 class="mb-4 text-2xl text-gray-500">More than I excepted </h3>
+    <h2 class="mb-2 text-5xl text-gray-700 font-bold -tracking-wide">Learning Tailwind is fun !</h2>
+    <h3 class="mb-4 text-3xl text-blue-500 ">More than I excepted </h3>
     <p class="mb-7">Cupcake ipsum dolor sit amet tootsie roll
     candy jelly beans. Toffee tiramisu chocolate 
     bar pie marzipan icing cake pie. Croissant halvah cake
@@ -66,9 +66,16 @@
     gummies chupa chups sugar plum sugar plum.
     Ice cream carrot cake gummies chupa chups chocolate cake tootsie roll croissant apple pie.</p>
    </div>
+
     <!------ colors ------>
+    <!---psudo classes---->
+    <!-- We talk about hover and duration -->
+    <!---------- transitions & transfoms ----------->
+   
     <div class="p-20 bg-gray-800 space-y-2">
-        <div class=" p-4 rounded-lg bg-red-100 text-red-600">i'am a box </div>
+        <div class=" p-4 rounded-lg bg-red-100 text-red-600 hover:bg-blue-900
+         hover:text-red-100 hover:scale-105
+         transition-color duration-500">i'am a box </div>
         <div class="  p-4 rounded-lg bg-red-200 text-red-600">i'am a box </div>
         <div class=" p-4 rounded-lg bg-red-300 text-red-600">i'am a box </div>
         <div class="  p-4 rounded-lg bg-red-400 text-red-600">i'am a box </div>
@@ -81,15 +88,11 @@
         
         
     </div>
-
-    <!---psudo classes---->
-
-
-    <!------ transitions & transfoms ------->
-
-
     <!--------- animations --------->
-
+<!-- <div>
+        <div class=" p-4 rounded-lg bg-red-900 text-red-200 animate-ping">i'am a box </div>
+        <div class=" p-4 rounded-lg bg-blue-500 text-blue-200 animate-bounce">i'am a box </div> 
+    </div> -->
 </body>
 
 </html>
